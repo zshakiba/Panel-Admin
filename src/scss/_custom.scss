@@ -1,0 +1,23 @@
+// Here you can add other styles
+th.ant-table-cell{
+    background-color: #9da5b1 !important;
+    padding: 14px 16px !important;
+}
+.ant-form-item-control-input-content {
+    text-align: left;
+}
+.ant-select-selection-item{
+    text-align: right;
+}
+td.ant-table-cell.ant-table-row-expand-icon-cell{
+    width: 0.5%;
+}
+div.ant-upload-list.ant-upload-list-picture-card{
+    text-align: right;
+}
+#cardFormList div.ant-card-head{
+    border-bottom: 1px solid rgba(0, 0, 21, 0.2) !important;
+}
+#fr-logo{
+    display: none;
+}

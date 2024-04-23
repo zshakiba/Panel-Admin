@@ -1,0 +1,75 @@
+{
+  "name": "@coreui/coreui-free-react-admin-template",
+  "version": "4.5.0",
+  "description": "CoreUI Free React Admin Template",
+  "homepage": ".",
+  "bugs": {
+    "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:coreui/coreui-free-react-admin-template.git"
+  },
+  "license": "MIT",
+  "author": "The CoreUI Team (https://github.com/orgs/coreui/people)",
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "lint": "eslint \"src/**/*.js\"",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "test:cov": "npm test -- --coverage --watchAll=false",
+    "test:debug": "react-scripts --inspect-brk test --runInBand"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.3.0",
+    "@apollo/client": "^3.9.5",
+    "@apollo/react-hooks": "^4.0.0",
+    "froala-editor": "3.2.6-1",
+    "react-froala-wysiwyg": "3.2.6-1",
+    "@coreui/chartjs": "^3.1.2",
+    "@coreui/coreui": "^4.2.6",
+    "@coreui/icons": "^3.0.1",
+    "@coreui/icons-react": "^2.1.0",
+    "@coreui/react": "^4.9.0-rc.0",
+    "@coreui/react-chartjs": "^2.1.3",
+    "@coreui/utils": "^2.0.2",
+    "antd": "^5.13.2",
+    "apollo-upload-client": "^18.0.1",
+    "axios": "^1.6.8",
+    "chart.js": "^3.9.1",
+    "classnames": "^2.3.2",
+    "core-js": "^3.31.0",
+    "formik": "^2.4.5",
+    "graphql": "^16.8.1",
+    "jodit-react": "^4.0.25",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-app-polyfill": "^3.0.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-i18next": "^14.0.4",
+    "react-recaptcha": "^2.3.10",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.22.2",
+    "reactstrap": "^9.2.1",
+    "redux": "4.2.1",
+    "simplebar-react": "^2.4.3",
+    "uuid": "^9.0.1",
+    "yup": "^1.3.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.10",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "prettier": "2.8.8",
+    "react-scripts": "5.0.1",
+    "sass": "^1.63.6",
+    "web-vitals": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  }
+}
